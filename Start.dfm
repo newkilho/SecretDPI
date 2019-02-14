@@ -1,0 +1,63 @@
+object FrmStart: TFrmStart
+  Left = 0
+  Top = 0
+  Caption = 'FrmStart'
+  ClientHeight = 373
+  ClientWidth = 500
+  Color = clWhite
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object LabelTitle: TLabel
+    Left = 8
+    Top = 40
+    Width = 484
+    Height = 81
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'SecretDPI'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -59
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    Font.Quality = fqAntialiased
+    ParentFont = False
+  end
+  object LabelContent: TJvHTLabel
+    Left = 8
+    Top = 160
+    Width = 484
+    Height = 105
+    AutoSize = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    SuperSubScriptRatio = 0.666666666666666600
+  end
+  object BtnStart: TSpeedButton
+    Left = 168
+    Top = 298
+    Width = 163
+    Height = 67
+    AllowAllUp = True
+    GroupIndex = 1
+    Caption = #49892#54665#54616#44592
+    OnClick = BtnStartClick
+  end
+  object Indicator: TActivityIndicator
+    Left = 233
+    Top = 314
+    Hint = 'dfg'
+    HelpType = htKeyword
+  end
+end

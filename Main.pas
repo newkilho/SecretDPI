@@ -43,7 +43,7 @@ implementation
 
 uses Start;
 
-function GetHTTP(URL: String; Json: String=''): string;
+function GetHTTP(URL: String): string;
 var
   Thread: TThread;
   Data: string;
@@ -57,13 +57,7 @@ begin
       HTTP.ConnectionTimeOut := 5000;
       HTTP.CustomHeaders['User-Version'] := VER;
 
-      if Json = '' then
-        Data := HTTP.Get(URL)
-      else
-        begin
-          HTTP.ContentType := 'application/json';
-          Data := HTTP.Get(URL, Json);
-        end;
+      Data := HTTP.Get(URL);
 
       HTTP.Free;
     end
@@ -71,7 +65,7 @@ begin
 
   Thread.FreeOnTerminate := True;
   Thread.Start;
-  while (not Thread.Finished) and (not Application.Terminated) do Application.ProcessMessages;
+  while not Thread.Finished do Application.ProcessMessages;
 
   Result := Data;
 end;

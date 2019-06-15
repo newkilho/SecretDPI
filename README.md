@@ -1,10 +1,10 @@
 # SecretDPI
 
-½ÉÃþ ÆÐÅ¶ ºÐ¼®(Deep Packet Inspection) À» ÅëÇØ ºÒ¹ýÀûÀÎ °¨Ã» ¹× º¯Á¶¸¦ ¼Õ½±°Ô ¸·À» ¼ö ÀÖ´Â ÇÁ·Î±×·¥ÀÔ´Ï´Ù.
+ì‹¬ì¸µ íŒ¨í‚· ë¶„ì„(Deep Packet Inspection) ì„ í†µí•´ ë¶ˆë²•ì ì¸ ê°ì²­ ë° ë³€ì¡°ë¥¼ ì†ì‰½ê²Œ ë§‰ì„ ìˆ˜ ìžˆëŠ” í”„ë¡œê·¸ëž¨ìž…ë‹ˆë‹¤.
 
-½±°Ô »ç¿ëÇÒ ¼ö ÀÖµµ·Ï GoodbyeDPI ¸¦ GUI ¹öÀüÀ¸·Î ¸¸µé¾ú½À´Ï´Ù.
+ì‰½ê²Œ ì‚¬ìš©í•  ìˆ˜ ìžˆë„ë¡ GoodbyeDPI ë¥¼ GUI ë²„ì „ìœ¼ë¡œ ë§Œë“¤ì—ˆìŠµë‹ˆë‹¤.
+
+/vendor í´ë”(GoodbyeDPI) ë¥¼ ì‚­ì œí•˜ê³  ë‹¨ë… SecretDPI.exe ë§Œ ì‹¤í–‰ì‹œ MTU ë¥¼ ë³€ê²½í•˜ì—¬ ìž‘ë™ë©ë‹ˆë‹¤.
 
 * GoodbyeDPI : <https://github.com/ValdikSS/GoodbyeDPI>
 * WinDivert : <https://reqrypt.org/windivert.html>
-
-/vendor Æú´õ(GoodbyeDPI) ¸¦ »èÁ¦ÇÏ°í ´Üµ¶ SecretDPI.exe ¸¸ ½ÇÇà½Ã MTU ¸¦ º¯°æÇÏ¿© ÀÛµ¿µË´Ï´Ù.
